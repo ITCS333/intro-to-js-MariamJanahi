@@ -23,6 +23,7 @@ function reverseString(str) {
  */
 function findLargest(numbers) {
   // TODO: Implement this function.
+    if(numbers.length===0) return null;
     return Math.max(...numbers);
 }
 
